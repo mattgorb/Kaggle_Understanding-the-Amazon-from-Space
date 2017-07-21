@@ -137,14 +137,13 @@ for filename in os.listdir('test/test/'):
 with open('results99.csv', 'w') as f:
 	for line in test:
 		f.write(line+'\n')
-#print y
-sys.exit()
+
 
 
 datagen = ImageDataGenerator(
-#   rotation_range=90,
- #  horizontal_flip=True,
-  # vertical_flip=True,
+   rotation_range=90,
+   horizontal_flip=True,
+   vertical_flip=True,
    rescale=1./255)
 
 nb_steps=61191/200+1
