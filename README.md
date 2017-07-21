@@ -6,11 +6,11 @@ For this project I fine-tuned the InceptionV3 convolutional neural network for t
 https://www.kaggle.com/c/planet-understanding-the-amazon-from-space
 
 ML techniques: 
-Optimize F2 thresholds for each classification  
-Test Time data augmentation for running multiple test samples of each image through the model to give the best prediction.  
-Training Data Augmentation 
-Manual learning rate decay 
-k-Fold cross validation-wasn't implemented completely before competition time ran out.  Needed to save off f2 optimization thresholds for each learning model.  
+Optimize F2 thresholds for each classification    
+Test Time data augmentation for running multiple test samples of each image through the model to give the best prediction.   
+Training Data Augmentation   
+Manual learning rate decay  
+k-Fold cross validation-wasn't implemented completely before competition time ran out.  Needed to save off f2 optimization thresholds for each learning model.   
 
 
 For multi label prediction I used: 
