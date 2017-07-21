@@ -5,7 +5,7 @@ Multi Label satellite image classification
 For this project I fine-tuned the InceptionV3 convolutional neural network for the kaggle competition 
 https://www.kaggle.com/c/planet-understanding-the-amazon-from-space
 
-ML techniques: 
+Statistics and machine learning techniques:  
 Optimize F2 thresholds for each classification    
 Test Time data augmentation for running multiple test samples of each image through the model to give the best prediction.   
 Training Data Augmentation   
