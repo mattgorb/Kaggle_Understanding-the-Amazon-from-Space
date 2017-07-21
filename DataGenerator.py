@@ -4,17 +4,14 @@ import numpy as np
 from sklearn.preprocessing import MultiLabelBinarizer
 from random import randint
 import random
-import numpy as np
 import cv2
 import sys
 import scipy.io
-import numpy as np
 import os.path
 from keras.utils import np_utils
 from string import strip
 import math
 from keras.preprocessing.image import ImageDataGenerator
-import os.path
 import os
  
 class DataGenerator:
