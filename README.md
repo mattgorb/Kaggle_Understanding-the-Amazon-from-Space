@@ -26,7 +26,7 @@ OpenCV
 pandas 
 sklearn 
 
-Setting up a computing instance on AWS was a pain. Some of these had various problems I had to google, I'll just right down the simple version here: 
+Setting up a computing instance on AWS was a pain. Some of these had various problems I had to google, I'll write down the simple instructions here:
 
 1. Request P2.xlarge instance on aws. You have to write a message to customer support and they'll usually get you approved within a business day. 
 2. Create a new Ubuntu p2.xlarge instance on ec2 console. 
